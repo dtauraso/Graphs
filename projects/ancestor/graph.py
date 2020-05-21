@@ -211,7 +211,7 @@ class Graph:
                 # print(destination_vertex)
                 break
             # the current node is in the graph and it hasn't been visited
-            if current['current'] in graph_for_stack and visited[ current['current'] ] == 0:
+            if (current['current'] in graph_for_stack) and (visited[ current['current'] ] == 0):
   
                     visited[ current['current'] ] = 1
 
